@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url(../imgs/fondo1.jpg);
+	color:	goldenrod;
+}
+
+/*#header a{
+	margin-left: 300px;
+}
+
+.video-Flash{
+	margin-top: 20px;	
+	margin-left: 650px;
+}
+
+.titulo-Ubicacion {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: xxx-large;
+	text-align: center;
+	background-image: url(../imgs/fondo.jpg)
+}
+.mapa {
+	margin: 0 14%;
+}
+.titulo-Mensaje{
+	font-size: xxx-large;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-image: url(../imgs/fondo.jpg)
+ }
+.formulario {
+	margin: 0 20%;
+	font-size: medium;
+	background-image: url(../imgs/fondo.jpg)
+}
+.formulario .nombre input {
+	margin: 10px;
+
+}
+.formulario .telefono input {
+	margin: 10px;
+}
+.formulario .mail input {
+	margin: 10px;
+}
+.formulario .mensaje input {
+	margin: 10px;
+}
+
+.btn {
+    color: goldenrod;
+    background-color: black;
+}
+.footer{
+	margin-top: 75px;
+	background-image: url(../imgs/fondo.jpg)
+}
+
+.redes {
+	text-align: center;
+	font-size: xx-large;
+}
+ul a {
+	margin: 200px;
+	font-size: larger;
+	color: goldenrod;
+}
+.copy {
+  margin-top: 10px;
+  margin-left: 1750px;
+  font-size: large;
+}
+
+.irArriba {
+  color: goldenrod;
+  text-decoration: none;
+  font-size: x-large;
+  margin: 0 45%;
+}
+
+.biografias{
+	margin-top: 20px;
+	margin-bottom: 30px;
+	color: goldenrod;
+	background-image: url(../imgs/fondo.jpg)
+}
+
+
+.biografias1 {
+	text-align: center;
+	list-style: none;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: xx-large;
+}
+
+
+.biografias3{
+	text-align: center;
+	list-style: none;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: xx-large;
+}
+
+
+.biografias2{
+	text-align: center;
+	list-style: none;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: xx-large;
+}
+
+.fotosInstaTatto1 {
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: x-large;
+		margin: 0 340px;
+}
+
+.fotosInstaTatto2 {
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: x-large;
+		margin: 0 340px;
+		margin-bottom: 20px;
+}
+
+.fotosInstaBarber { 
+		 display: inline-block;
+    box-sizing: border-box;
+    font-size: x-large;
+		margin: 0 340px;
+ }
+
+ .fotosInstaBarber2 { 
+		display: inline-block;
+    box-sizing: border-box;
+    font-size: x-large;
+		margin: 0 340px;
+		margin-bottom: 20px;
+ }
+
+ .historia {
+ 		margin-top: 20px;
+		margin-bottom: 20px;
+		color: goldenrod;
+		font-size: large;
+		background-image: url(../imgs/fondo.jpg)
+	
+}
