@@ -1,7 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
 * {
   margin: 0;
   padding: 0; }
 
 body {
+  font-family: 'Baloo Bhaijaan 2';
+  font-weight: 400;
   background-image: url(../imgs/fondo1.jpg);
+  color: goldenrod; }
+
+.bg-image, h1, h4 {
+  background-image: url(../imgs/fondo.jpg); }
+
+h1 {
+  color: goldenrod;
+  font-weight: 700; }
+
+h3 {
+  font-family: 'Rock Salt';
+  color: goldenrod;
+  font-size: x-large; }
+
+h4 {
+  color: goldenrod;
+  font-size: x-large;
+  font-weight: 700; }
+
+a {
+  font-family: 'Baloo Bhaijaan 2';
+  font-weight: 400; }
+
+a {
   color: goldenrod; }
