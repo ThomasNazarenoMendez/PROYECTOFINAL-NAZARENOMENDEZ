@@ -66,7 +66,7 @@
 			<div class="form-floating">
 				  	<textarea class="form-control" placeholder="Deja tu mensaje aqui" id="MENSAJE" style="height: 100px"></textarea>
 				  	<label for="MENSAJE">Mensaje:</label>
-				  	<button type="submit" class="btn btn-primary d-flex justify-content-center ">Enviar</button>
+					<button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal">Enviar</button>
 			</div>
 		</div>
 </section>			
@@ -75,10 +75,9 @@
 	<div class="d-flex">	
 		<ul >
 			 <h4>REDES SOCIALES</h4>
-			<li><a class="text-decoration-none text-warning " href="https://www.instagram.com/acidclubdetatuajes/" target="_blank" id="isnta">https://www.instagram.com/acidclubdetatuajes/</a></li>
-			<li><a class="text-decoration-none text-warning" href="https://www.tiktok.com/search?q=acidclubdetatuajes&t=1636293883631" target="_blank" id="tiktok">https://www.tiktok.com/search?q=acidclubdetatuajes&t=1636293883631</a></li>
-			<li><a class="text-decoration-none text-warning" href="https://www.facebook.com/acid.tattoomadero" target="_blank" id="face">https://www.facebook.com/acid.tattoomadero</a></li>
-			<li><a class="text-decoration-none text-warning" href="https://www.instagram.com/acid.barbershop/" target="_blank" id="isnta barber">https://www.instagram.com/acid.barbershop/</a></li>
+			<li><a class="text-decoration-none text-warning " href="https://www.instagram.com/acidclubdetatuajes/" target="_blank" id="isnta"><img src="imgs/instagram.png"></a></li>
+			<li><a class="text-decoration-none text-warning" href="https://www.tiktok.com/search?q=acidclubdetatuajes&t=1636293883631" target="_blank" id="tiktok"><img src="imgs/tik-tok.png"></a></li>
+			<li><a class="text-decoration-none text-warning" href="https://www.facebook.com/acid.tattoomadero" target="_blank" id="face"><img src="imgs/facebook.png"></a></li>
 		</ul>
 	</div>
 	<div>
@@ -86,6 +85,28 @@
 		<a class="d-flex justify-content-center text-decoration-none text-warning" href="#header">IR ARRIBA</a>
 	</div>
 </footer>
+
+<!-- Modal -->
+<div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="ModalLabel">Hola!!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Actualmente esta parte del sitio esta en desarrollo, podes comunicarte con nostros a teves de nuestras redes sociales:
+        <ul>	
+        	<li><a class="text-decoration-none text-warning" href="https://www.instagram.com/acidclubdetatuajes/" target="_blank" id="isnta">INSTAGRAM</a></li>
+        	<li><a class="text-decoration-none text-warning" href="https://www.facebook.com/acid.tattoomadero" target="_blank" id="face">FACEBOOK</a></li>
+        </ul>			
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 	    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
