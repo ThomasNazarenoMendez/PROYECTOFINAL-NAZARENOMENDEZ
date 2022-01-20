@@ -1,35 +1,71 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+/* line 4, C:/Users/tommy/Desktop/PROYECTOFINAL-NAZARENOMENDEZ/ROOT/scss/_main.scss */
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
+/* line 9, C:/Users/tommy/Desktop/PROYECTOFINAL-NAZARENOMENDEZ/ROOT/scss/_main.scss */
 body {
   font-family: 'Baloo Bhaijaan 2';
   font-weight: 400;
   background-image: url(../imgs/fondo1.jpg);
-  color: goldenrod; }
+  color: goldenrod;
+}
 
+/* line 16, C:/Users/tommy/Desktop/PROYECTOFINAL-NAZARENOMENDEZ/ROOT/scss/_main.scss */
 .bg-image, h1, h4 {
-  background-image: url(../imgs/fondo.jpg); }
+  background-image: url(../imgs/fondo.jpg);
+}
 
+/* line 21, C:/Users/tommy/Desktop/PROYECTOFINAL-NAZARENOMENDEZ/ROOT/scss/_main.scss */
 h1 {
   color: goldenrod;
-  font-weight: 700; }
+  font-weight: 700;
+}
 
+/* line 26, C:/Users/tommy/Desktop/PROYECTOFINAL-NAZARENOMENDEZ/ROOT/scss/_main.scss */
 h3 {
   font-family: 'Rock Salt';
   color: goldenrod;
-  font-size: x-large; }
+  font-size: x-large;
+}
 
+/* line 31, C:/Users/tommy/Desktop/PROYECTOFINAL-NAZARENOMENDEZ/ROOT/scss/_main.scss */
 h4 {
   color: goldenrod;
   font-size: x-large;
-  font-weight: 700; }
+  font-weight: 700;
+}
 
+/* line 38, C:/Users/tommy/Desktop/PROYECTOFINAL-NAZARENOMENDEZ/ROOT/scss/_main.scss */
 a {
   font-family: 'Baloo Bhaijaan 2';
-  font-weight: 400; }
+  font-weight: 400;
+}
 
+/* line 43, C:/Users/tommy/Desktop/PROYECTOFINAL-NAZARENOMENDEZ/ROOT/scss/_main.scss */
 a {
-  color: goldenrod; }
+  color: goldenrod;
+}
+
+/* line 47, C:/Users/tommy/Desktop/PROYECTOFINAL-NAZARENOMENDEZ/ROOT/scss/_main.scss */
+.carousel-inner {
+  height: 700px;
+  weight: 700px;
+}
+
+/* line 51, C:/Users/tommy/Desktop/PROYECTOFINAL-NAZARENOMENDEZ/ROOT/scss/_main.scss */
+.carousel-inner img {
+  width: 100%;
+  max-height: 700px;
+}
+
+/* line 58, C:/Users/tommy/Desktop/PROYECTOFINAL-NAZARENOMENDEZ/ROOT/scss/_main.scss */
+.imgStaff {
+  height: 900px;
+  weight: 700px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
